@@ -9,7 +9,7 @@ In the "tools" collection, the parameters are described in natural language - no
     "properties": {
         "location": {
             "type": "string",
-            "description": "The city and state, e.g. San Francisco, CA or a zip code, e.g. 94107, or a lat,long pair, e.g. 37.7749,-122.4194",
+            "description": "The city and state, e.g. San Francisco, CA or a zip code, e.g. 94107, or a lat,lon pair, e.g. 37.7749,-122.4194",
         }
     },
 ...
