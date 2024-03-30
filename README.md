@@ -20,5 +20,8 @@ If the model is unsure it can provide the required parameters, it is given a sys
 In a "production-ized" version of this, more checks of the input values should be done along with other error handling.
 
 ## Example output
+### Using lat,lon
 ![output](https://raw.githubusercontent.com/oshea00/openai-func/main/WeatherCall.png)
+### Using ambiguous location
+![output](https://raw.githubusercontent.com/oshea00/openai-func/main/WeatherCallAmbig.png)
 

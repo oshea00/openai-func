@@ -101,8 +101,9 @@ if assistant_message.tool_calls:
     results = execute_function_call(assistant_message)
     response_message = {"role": "function", "tool_call_id": call_id, "name": function_name, "content": results} 
     messages.append(response_message)
-    pretty_print_conversation(messages)
 else:
-    print(assistant_message.content)
+    messages.append({"role": "assistant", "content": assistant_message.content})
+
+pretty_print_conversation(messages)
 
 
