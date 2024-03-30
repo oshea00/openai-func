@@ -15,7 +15,7 @@ In the "tools" collection, the parameters are described in natural language - no
 ...
 ```
 
-If the model is unsure it can provide the required parameteres, it is given a system prompt to clarify for more input.
+If the model is unsure it can provide the required parameters, it is given a system prompt to clarify for more input.
 
 In a "production-ized" version of this, more checks of the input values should be done along with other error handling.
 
