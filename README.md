@@ -1,6 +1,6 @@
 # OpenAI function call example
 
-How to setup a function call in OpenAI chat completion.
+How to setup a function call in OpenAI chat completion. This example is based on the [OpenAI cookbook article](https://github.com/openai/openai-cookbook/blob/main/examples/How_to_call_functions_with_chat_models.ipynb). 
 
 ## Notes
 In the "tools" collection, the parameters are described in natural language - note location can be a city, lat/lon, or zipcode.
