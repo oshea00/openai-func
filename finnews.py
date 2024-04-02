@@ -18,7 +18,6 @@ headers= {
 }
 
 response = requests.request("GET", url, headers=headers, data = payload)
-
 status_code = response.status_code
 result = response.text
 
@@ -26,8 +25,8 @@ if status_code != 200:
     print(f"Error: Unable to fetch news data")
     print(f"Status code: {status_code}")
     exit()
-news = json.loads(result)
 
+news = json.loads(result)
 ARTICLE_TITLE_COLOR = "yellow"
 ARTICLE_DESCRIPTION_COLOR = "green"
 ARTICLE_URL_COLOR = "blue"
